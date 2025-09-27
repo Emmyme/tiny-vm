@@ -1,0 +1,59 @@
+; String Output Demo
+; Prints "Hello, World!" using ASCII character codes
+
+; Print 'H' (ASCII 72)
+LOADIMM R0, 72
+PRINTCHAR R0
+
+; Print 'e' (ASCII 101)
+LOADIMM R0, 101
+PRINTCHAR R0
+
+; Print 'l' (ASCII 108)
+LOADIMM R0, 108
+PRINTCHAR R0
+
+; Print 'l' again
+PRINTCHAR R0
+
+; Print 'o' (ASCII 111)
+LOADIMM R0, 111
+PRINTCHAR R0
+
+; Print ',' (ASCII 44)
+LOADIMM R0, 44
+PRINTCHAR R0
+
+; Print ' ' (space, ASCII 32)
+LOADIMM R0, 32
+PRINTCHAR R0
+
+; Print 'W' (ASCII 87)
+LOADIMM R0, 87
+PRINTCHAR R0
+
+; Print 'o' (ASCII 111)
+LOADIMM R0, 111
+PRINTCHAR R0
+
+; Print 'r' (ASCII 114)
+LOADIMM R0, 114
+PRINTCHAR R0
+
+; Print 'l' (ASCII 108)
+LOADIMM R0, 108
+PRINTCHAR R0
+
+; Print 'd' (ASCII 100)
+LOADIMM R0, 100
+PRINTCHAR R0
+
+; Print '!' (ASCII 33)
+LOADIMM R0, 33
+PRINTCHAR R0
+
+; Print newline (ASCII 10)
+LOADIMM R0, 10
+PRINTCHAR R0
+
+HALT
